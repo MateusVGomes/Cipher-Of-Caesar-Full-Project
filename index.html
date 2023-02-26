@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
     <title>Document</title>
 </head>
 
@@ -33,22 +34,60 @@
         </section>
 
         <section class="sectionText">
-           <div class="title">
+            <div class="title">
                 <h2>Como funciona?</h2>
-           </div>
-           <div class=text>
-            <p> A Cifra de César é uma técnica de criptografia simples que foi utilizada na Roma Antiga pelo
-                imperador Júlio César para proteger informações sensíveis durante a comunicação. A técnica consiste
-                em substituir cada letra do alfabeto por outra letra que se encontra três posições à frente na mesma
-                sequência alfabética.</p>
-        </div>
+            </div>
+            <div class=text>
+                <p> A função do programa é muito simples, ao em vez de limitarmos apenas a uma chave de modificação de 3
+                    chaves, o programa vai permitr com que você
+                    escolha sua chave e decida se vai traduzir uma cifra ou escrever uma cifra.
+                </p>
+            </div>
 
         </section>
 
         <section class="execution">
-            
+            <div class="title">
+                <h2>Teste esta funcionalidade</h2>
+            </div>
+            <div class="labels">
+                <label for="" class="radioLabel">
 
+                    <input type="radio" name="sentenca" id="traduzirCifra" value="traduzir">
 
+                    Traduzir
+
+                </label>
+
+                <label for="" class="radiosLabel">
+
+                    <input type="radio" name="sentenca" id="escreverCifra" value="escrever">
+
+                    Escrever
+
+                </label>
+            </div>
+
+            <div class="title">
+                <label for="">Digite a chave da cifra</label>
+
+            </div>
+            <div class="text">
+                <input type="number" placeholder="digite a chave da cifra" id="chave">
+
+            </div>
+
+            <div class="title">
+
+                <label for="">Digite a cifra</label>
+
+            </div>
+
+            <div class="text">
+
+                <input type="number" placeholder="digite a cifra" id="cifra">
+                <button type="submit">Traduzir</button>
+            </div>
         </section>
 
     </main>

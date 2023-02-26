@@ -31,12 +31,22 @@ body {
 }
 
 .text{
+    display: flex;
     margin-left: 3%;
     margin-right: 3%;
     grid-row: 2 / 3;
+    align-items: center;
+    justify-content: center;
 }
 
 .title {
+    display:flex;
     grid-row: 1 / 2;
     margin-bottom: 1%; /* reduzindo o espaçamento inferior do título */
+    align-items: center;
+    justify-content: center;
+}
+.labels{
+  display: grid;
+
 }
