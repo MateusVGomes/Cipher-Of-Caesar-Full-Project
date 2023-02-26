@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #2B2F36;
+    color: white;
+    font-size:0.85em;
+}
+
+.navBar {
+    display: flex;
+    height: 6vh;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    background-color: #2B313B;
+}
+
+.main {
+    display: grid;
+    grid-template-rows: 30vh 30vh 30vh;
+}
+.sectionText{
+    display: grid;
+    grid-template-rows: 1fr 4fr; /* altura da primeira linha = 1/5, altura da segunda linha = 4/5 */
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 3%;
+}
+
+.text{
+    margin-left: 3%;
+    margin-right: 3%;
+    grid-row: 2 / 3;
+}
+
+.title {
+    grid-row: 1 / 2;
+    margin-bottom: 1%; /* reduzindo o espaçamento inferior do título */
+}
